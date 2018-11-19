@@ -1441,3 +1441,17 @@ a:hover {
         transform: scale(0.124);
     }
 }
+
+@media only screen and (max-width: 768px) {
+
+    .illustration {
+        transform: scale(0.1);
+        width: 100%;
+        top: -2800px;
+        right: 200px;
+    }
+
+    .completesolution {
+        margin-top: 250px;
+    }
+}
